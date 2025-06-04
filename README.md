@@ -29,7 +29,7 @@ npm install
 First, import the `ProgressBar` component into your application:
 
 ```javascript
-import ProgressBar from './ProgressBar';
+import ProgressBar from 'my-custom-progress-bar';
 ```
 
 ### Adding the ProgressBar Component
@@ -38,7 +38,7 @@ You can use the `ProgressBar` component in your application by specifying the `d
 
 ```javascript
 import React from 'react';
-import ProgressBar from './ProgressBar';
+import ProgressBar from 'my-custom-progress-bar';
 import './App.css';
 
 function App() {
@@ -61,7 +61,7 @@ The `ProgressBar` component accepts the following props:
 
 | Prop        | Type     | Default | Description                                           |
 |-------------|----------|---------|-------------------------------------------------------|
-| `domSelector` | `string` | -       | The ID of the DOM element to track scroll progress.   |
+| `domSelector` | `string` | -     | The ID of the DOM element to track scroll progress.   |
 | `height`    | `number` | `6`     | The height of the progress bar in pixels.            |
 | `color`     | `string` | `blue`  | The background color of the progress bar.            |
 | `top`       | `number` | `0`     | The top position of the progress bar (in pixels).    |
@@ -74,7 +74,7 @@ Here’s a complete example of how to use the `ProgressBar` component:
 
 ```javascript
 import React from 'react';
-import ProgressBar from './ProgressBar';
+import ProgressBar from 'my-custom-progress-bar';
 import './App.css';
 
 function App() {
@@ -106,6 +106,4 @@ You can customize the appearance of the progress bar by modifying the `height` a
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any enhancements or bugs.
 
-## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
